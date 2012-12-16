@@ -1,29 +1,30 @@
 editor-crashed
-It seems that Greenfoot crashed while writing this class
-to disk last time. The source code may be missing or 
-incomplete. There should be a backup of this class 
-in the project folder. If this class seems damaged,
-   1 - quit BlueJ
-   2 - backup your project folder (just in case)
-   3 - look into the project folder for a backup of
-       this java file. Rename it to the original
-       file name (with a '.java' suffix)
+Il semblerait que Greenfoot ait planté en écrivant cette
+classe sur le disque la dernière fois. Le code source est
+peut-être manquant ou incomplet. Il devrait y avoir une
+sauvegarde de cette classe dns le dossier du projet. Si
+cette classe semble endommagée,
+   1 - quittez BlueJ
+   2 - sauvegardez le dossier du projet (au cas où)
+   3 - recherchez une sauvegarde de cette classe dans le
+       dossier du projet. Renommez-le en .java (son nom
+       d'origine)
 
 error-create-vm
-Greenfoot was unable to create a virtual machine (VM) to execute scenarios.
-Often this is caused by overly restrictive firewall settings.
-Please see [ http://www.bluej.org/help/faq.html#socket-exc ] for more
-information, or contact support@greenfoot.org.
+Greenfoot n'a pas pu créer de machine virtuelle (VM) pour exécuter les scénarios.
+Cela est souvent causé par des paramètres de pare-feu trop resctrictifs.
+Pour plus d'informations, voir [ http://www.bluej.org/help/faq.html#socket-exc ],
+ou contacter support@greenfoot.org.
 
 project-is-readonly
-The scenario being opened is read-only:
+Le scenario en cours d'ouverture est en lecture seule:
 :
     $
 :
-To use this scenario, you will first need to choose a new
-location to save it to.
+Pour utiliser ce scenario, vous devrez d'abord choisir un
+nouvel emplacement où l'enregistrer.
 
 cannot-save-project
-The scenario could not be saved to the specified
-location. Check that you have write access, or
-choose another location.
+Le scenario n'a pas pu être enregistré à l'emplacement spécifié.
+Vérifiez que vous y avez accès en écriture, ou choisissez un
+nouvel emplacement.
