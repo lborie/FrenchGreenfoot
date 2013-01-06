@@ -25,9 +25,9 @@ comment-block=\n Pr\u00e9fixe les lignes courantes avec '//'.\n L'op\u00e9ration
 uncomment-block=\n Supprime le pr\u00e9fixe '//' des lignes courantes.\n Voir aussi comment-block.
 indent-block=\n Ajoute un niveau d'indentation aux lignes courantes.
 deindent-block=\n Enl\u00e8ve un niveau d'indentation des lignes courantes.
-increase-font=\Augmente la taille de la police de 1
-decrease-font=\Diminue la taille de la police de 1
-code-completion=\Aide \u00e0 l'auto-compl\u00e9tion de code.
+increase-font=\n Augmente la taille de la police de 1
+decrease-font=\n Diminue la taille de la police de 1
+code-completion=\n Aide \u00e0 l'auto-compl\u00e9tion de code.
 
 select-word=\n S\u00e9lectionne le mot courant (correspond \u00e9galement au double-clic).
 select-line=\n S\u00e9lectionne la ligne courante (correspond \u00e9galement au triple-clic).
