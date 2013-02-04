@@ -3,59 +3,58 @@ $PKGLINE
 import javax.microedition.midlet.MIDlet;
 
 /**
- * Class $CLASSNAME - describe your midlet class here
+ * Classe $CLASSNAME - D\u00e9crivez votre classe Midlet ici
  *
- * @author     write your name here
- * @version    write a version number or date here
+ * @author     Votre nom ici
+ * @version    Un num\u00e9ro de version ou une date
  */
 public class $CLASSNAME extends MIDlet
 {
-   /**
-    * Called by the Application Management Software (AMS) when the MIDlet
-    * begins execution.  The AMS is the software on a device that manages 
-    * the downloading and life-cycle of MIDlets.  When this constructor 
-    * returns, the AMS places the MIDlet in the Paused state.
-    */
+    /**
+     * Appel\u00e9 par le logiciel de Gestion des applications
+     * (Application Management Software (AMS)) quand le MIDlet d\u00e9marre.
+     * L'AMS est le logiciel qui g\u00e8re le cycle de vie des MIDlets.
+     * Quand ce constructeur retourne quelque chose, l'AMS positionne
+     * cette MIDlet \u00e0 l'\u00e9tat Pause.
+     */
     public $CLASSNAME()
     {
-        //Provide any initialisation necessary for your MIDlet.
+        // Fournit toute l'initialisation n\u00e9cessaire au MIDlet
     }
 
-   /**
-    * Called by the AMS to shift the MIDlet to the Active state from
-    * the Paused state. While the MIDlet is Active, the AMS can suspend 
-    * its execution by calling pauseApp().
-    */
+    /**
+     * Appel\u00e9 par l'AMS pour basculer le MIDlet de l'\u00e9tat Pause \u00e0 l'\u00e9tat
+     * Actif. Tant que le MIDlet est actif, l'AMS peut suspendre son ex\u00e9cution
+     * en appelant pauseApp().
+     */
     public void startApp()
     {
-        // Allocate shared resources such as network connections or devices.
+        // Alloue les ressources n\u00e9cessaires telles que les connexions r\u00e9seaux.
     }
 
-   /**
-    * Called by the AMS to shift the MIDlet to the Paused state from
-    * the Active state. While the MIDlet is Paused, the AMS can resume 
-    * its execution by calling startApp().
-    * The AMS may shift the MIDlet from Paused to Active or back any
-    * number of times during its execution.
-    */
+    /**
+     * Appel\u00e9 par l'AMS pour basculer le MIDlet de l'\u00e9tat Actif \u00e0 l'\u00e9tat
+     * Pause. Tant que le MIDlet est \u00e0 l'\u00e9tat Pause, l'AMS peut reprendre son
+     * ex\u00e9cution par l'appel \u00e0 la m\u00e9thode startApp().
+     * Il est possible de faire ce basulement autant de fois qu'on le souhaite.
+     */
     public void pauseApp()
     {
-        // Release shared resources allocated in startApp().
+        // Lib\u00e8re les ressources partag\u00e9es qui ont \u00e9t\u00e9 allou\u00e9es dans startApp().
     }
 
-   /**
-    * Called by the AMS to terminate execution of the MIDlet.
-    * When this method returns, the MIDlet enters the Destroyed 
-    * state.
-    *
-    * @param unconditional   Whether to destroy the MIDlet. If true the
-    *                        MIDlet will enter the Destroyed state regardless
-    *                        of how this method terminates. If false the MIDlet
-    *                        may throw a MIDletStateChangeException to request
-    *                        that it not be destroyed at this time.
-    */
+    /**
+     * Invoqu\u00e9 par l'AMS pour finir l'ex\u00e9cution du MIDlet.
+     * Une fois termin\u00e9e, le MIDlet passe \u00e0 l'\u00e9tat D\u00e9truit
+     *
+     * @param unconditional   Destruction inconditionnelle? Si \u00e0 true alors le
+     *                        MIDlet va passer \u00e0 l'\u00e9tat d\u00e9truit quelle que soit
+     *                        la fa\u00e7on dont la m\u00e9thode se termine. Si \u00e0 false
+     *                        le MIDlet peut lancer une MIDletStateChangeException
+     *                        pour pr\u00e9venir qu'il n'est actuellement pas d\u00e9truit.
+     */
     public void destroyApp(boolean unconditional)
     {
-        // Release resources acquired in the constructor.
+        // Lib\u00e8re les ressources acquises dans le constructeur.
     }
 }
