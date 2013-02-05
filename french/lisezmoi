@@ -1,24 +1,16 @@
 fichier: lisezmoi
 description: Traduction fran�aise du logiciel BlueJ
-Date: 2007-07-10
-Auteur: Patrice Moreaux
-        Polytech'Savoie, Universit� de Savoie, Anecy, FRANCE
-        (patrice.moreaux@univ-savoie.fr)
+===================================================
 
-Version BlueJ concern�e: 2.2.0 (2007-07-09)
+Date: 2013-02-05
+Auteur: Ludovic Borie
+        Romain Sertelon,
+        pour Programatoo (programatoo@sfeir.com)
 
-Mise à jour :
-Ludovic Borie, pour Programatoo (programatoo@sfeir.com)
-(2012-12-12)
+Version BlueJ concernée: 3.0.7
 
-
-Remerciements
--------------
-Cette traduction est bas�e sur la version du 2003-12-06.
-La traduction du 2003-12-06 est bas�e sur celle fournie par
-  Daniel U. Thibault R & D pour la d�fense Canada - Valcartier (Daniel.Thibault@DRDC-RDDC.GC.Ca)
-  pour la version 1.3.0beta4 (2003-07-14)
-elle-m�me bas�e sur ma traduction pour la version 1.2.2
+Cette traduction est disponible et ouverte à participation sur Github
+https://github.com/lborie/FrenchGreenfoot
 
 
 Principes de traduction
@@ -120,19 +112,20 @@ url           adresse Internet
 web           Web (CGTN : Toile)
 
 
-Contenu et installation de la traduction
-----------------------------------------
-le r�pertoire "french" contient tous les fichiers remplac�s par
-leur traduction :
-- dialogues
-- �tiquettes
-- sous-r�pertoire 'templates'
-  - readme
-  - sous-r�pertoire newclass
-    - readme
-On trouvera de plus:
-- lisezmoi (le pr�sent fichier)
-- bluej.defs: version avec langage fran�ais s�lectionn�
+Précédemment
+------------
+Date: 2007-07-10
+Auteur: Patrice Moreaux
+        Polytech'Savoie, Universit� de Savoie, Anecy, FRANCE
+        (patrice.moreaux@univ-savoie.fr)
 
+Version BlueJ concernée: 2.2.0 (2007-07-09)
+
+Cette traduction est basée sur la version du 2003-12-06.
+La traduction du 2003-12-06 est basée sur celle fournie par
+  Daniel U. Thibault R & D pour la défense Canada - Valcartier (Daniel.Thibault@DRDC-RDDC.GC.Ca)
+  pour la version 1.3.0beta4 (2003-07-14)
+elle-même basée sur ma traduction pour la version 1.2.2
 
 fin du fichier lisezmoi
+
