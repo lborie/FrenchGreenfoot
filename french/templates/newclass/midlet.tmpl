@@ -3,58 +3,58 @@ $PKGLINE
 import javax.microedition.midlet.MIDlet;
 
 /**
- * Classe $CLASSNAME - D\u00e9crivez votre classe Midlet ici
+ * Classe $CLASSNAME - Décrivez votre classe Midlet ici
  *
  * @author     Votre nom ici
- * @version    Un num\u00e9ro de version ou une date
+ * @version    Un numéro de version ou une date
  */
 public class $CLASSNAME extends MIDlet
 {
     /**
-     * Appel\u00e9 par le logiciel de Gestion des applications
-     * (Application Management Software (AMS)) quand le MIDlet d\u00e9marre.
-     * L'AMS est le logiciel qui g\u00e8re le cycle de vie des MIDlets.
+     * Appelé par le logiciel de Gestion des applications
+     * (Application Management Software (AMS)) quand le MIDlet démarre.
+     * L'AMS est le logiciel qui gère le cycle de vie des MIDlets.
      * Quand ce constructeur retourne quelque chose, l'AMS positionne
-     * cette MIDlet \u00e0 l'\u00e9tat Pause.
+     * cette MIDlet à l'état Pause.
      */
     public $CLASSNAME()
     {
-        // Fournit toute l'initialisation n\u00e9cessaire au MIDlet
+        // Fournit toute l'initialisation nécessaire au MIDlet
     }
 
     /**
-     * Appel\u00e9 par l'AMS pour basculer le MIDlet de l'\u00e9tat Pause \u00e0 l'\u00e9tat
-     * Actif. Tant que le MIDlet est actif, l'AMS peut suspendre son ex\u00e9cution
+     * Appelé par l'AMS pour basculer le MIDlet de l'état Pause à l'état
+     * Actif. Tant que le MIDlet est actif, l'AMS peut suspendre son exécution
      * en appelant pauseApp().
      */
     public void startApp()
     {
-        // Alloue les ressources n\u00e9cessaires telles que les connexions r\u00e9seaux.
+        // Alloue les ressources nécessaires telles que les connexions réseaux.
     }
 
     /**
-     * Appel\u00e9 par l'AMS pour basculer le MIDlet de l'\u00e9tat Actif \u00e0 l'\u00e9tat
-     * Pause. Tant que le MIDlet est \u00e0 l'\u00e9tat Pause, l'AMS peut reprendre son
-     * ex\u00e9cution par l'appel \u00e0 la m\u00e9thode startApp().
+     * Appelé par l'AMS pour basculer le MIDlet de l'état Actif à l'état
+     * Pause. Tant que le MIDlet est à l'état Pause, l'AMS peut reprendre son
+     * exécution par l'appel à la méthode startApp().
      * Il est possible de faire ce basulement autant de fois qu'on le souhaite.
      */
     public void pauseApp()
     {
-        // Lib\u00e8re les ressources partag\u00e9es qui ont \u00e9t\u00e9 allou\u00e9es dans startApp().
+        // Libère les ressources partagées qui ont été allouées dans startApp().
     }
 
     /**
-     * Invoqu\u00e9 par l'AMS pour finir l'ex\u00e9cution du MIDlet.
-     * Une fois termin\u00e9e, le MIDlet passe \u00e0 l'\u00e9tat D\u00e9truit
+     * Invoqué par l'AMS pour finir l'exécution du MIDlet.
+     * Une fois terminée, le MIDlet passe à l'état Détruit
      *
-     * @param unconditional   Destruction inconditionnelle? Si \u00e0 true alors le
-     *                        MIDlet va passer \u00e0 l'\u00e9tat d\u00e9truit quelle que soit
-     *                        la fa\u00e7on dont la m\u00e9thode se termine. Si \u00e0 false
+     * @param unconditional   Destruction inconditionnelle? Si à true alors le
+     *                        MIDlet va passer à l'état détruit quelle que soit
+     *                        la façon dont la méthode se termine. Si à false
      *                        le MIDlet peut lancer une MIDletStateChangeException
-     *                        pour pr\u00e9venir qu'il n'est actuellement pas d\u00e9truit.
+     *                        pour prévenir qu'il n'est actuellement pas détruit.
      */
     public void destroyApp(boolean unconditional)
     {
-        // Lib\u00e8re les ressources acquises dans le constructeur.
+        // Libère les ressources acquises dans le constructeur.
     }
 }

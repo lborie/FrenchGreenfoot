@@ -9,33 +9,33 @@ import org.junit.Test;
  * Classe-test $CLASSNAME.
  *
  * @author  (votre nom)
- * @version (un num\u00e9ro de version ou une date)
+ * @version (un numéro de version ou une date)
  *
- * Les classes-test sont document\u00e9es ici :
+ * Les classes-test sont documentées ici :
  * http://junit.sourceforge.net/javadoc/junit/framework/TestCase.html
- * et sont bas\u00e9es sur le document \u0160 2002 Robert A. Ballance intitul\u00e9
+ * et sont basées sur le document \u0160 2002 Robert A. Ballance intitulé
  * \u0164JUnit: Unit Testing Framework\u0165.
  *
- * Les objets Test (et TestSuite) sont associ\u00e9s aux classes \u0155 tester
+ * Les objets Test (et TestSuite) sont associés aux classes à tester
  * par la simple relation yyyTest (e.g. qu'un Test de la classe Name.java
  * se nommera NameTest.java); les deux se retrouvent dans le m\u0119me paquetage.
  * Les "engagements" (anglais : "fixture") forment un ensemble de conditions
- * qui sont vraies pour chaque m\u00e9thode Test \u0155 ex\u00e9cuter.  Il peut y avoir
- * plus d'une m\u00e9thode Test dans une classe Test; leur ensemble forme un
+ * qui sont vraies pour chaque méthode Test à exécuter.  Il peut y avoir
+ * plus d'une méthode Test dans une classe Test; leur ensemble forme un
  * objet TestSuite.
- * BlueJ d\u00e9couvrira automatiquement (par introspection) les m\u00e9thodes
- * Test de votre classe Test et g\u00e9n\u00e9rera la TestSuite cons\u00e9quente.
- * Chaque appel d'une m\u00e9thode Test sera pr\u00e9c\u00e9d\u00e9 d'un appel de setUp(),
- * qui r\u00e9alise les engagements, et suivi d'un appel \u0155 tearDown(), qui les
- * d\u00e9truit.
+ * BlueJ découvrira automatiquement (par introspection) les méthodes
+ * Test de votre classe Test et générera la TestSuite conséquente.
+ * Chaque appel d'une méthode Test sera précédé d'un appel de setUp(),
+ * qui réalise les engagements, et suivi d'un appel à tearDown(), qui les
+ * détruit.
  */
 public class $CLASSNAME
 {
-    // D\u00e9finissez ici les variables d'instance n\u00e9cessaires \u0155 vos engagements;
-    // Vous pouvez \u00e9galement les saisir automatiquement du pr\u00e9sentoir
-    // \u0155 l'aide du menu contextuel "Pr\u00e9sentoir --> Engagements".
+    // Définissez ici les variables d'instance nécessaires à vos engagements;
+    // Vous pouvez également les saisir automatiquement du présentoir
+    // à l'aide du menu contextuel "Présentoir --> Engagements".
     // Notez cependant que ce dernier ne peut saisir les objets primitifs
-    // du pr\u00e9sentoir (les objets sans constructeur, comme int, float, etc.).
+    // du présentoir (les objets sans constructeur, comme int, float, etc.).
     protected double fValeur1;
     protected double fValeur2;
 
@@ -49,7 +49,7 @@ public class $CLASSNAME
     /**
      * Met en place les engagements.
      *
-     * M\u00e9thode appel\u00e9e avant chaque appel de m\u00e9thode de test.
+     * Méthode appelée avant chaque appel de méthode de test.
      */
     @Before
     public void setUp() // throws java.lang.Exception
@@ -62,11 +62,11 @@ public class $CLASSNAME
     /**
      * Supprime les engagements
      *
-     * M\u00e9thode appel\u00e9e apr\u010ds chaque appel de m\u00e9thode de test.
+     * Méthode appelée après chaque appel de méthode de test.
      */
     @After
     public void tearDown() // throws java.lang.Exception
     {
-        //Lib\u00e9rez ici les ressources engag\u00e9es par setUp()
+        //Libérez ici les ressources engagées par setUp()
     }
 }
