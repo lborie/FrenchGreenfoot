@@ -1,9 +1,9 @@
 BJ000
-La déclaration d'une Méthode devrait être suivie d'un corps de méthode (ou "throws", ou ";")
+La d\u00e9claration d'une M\u00e9thode devrait \u00eatre suivie d'un corps de m\u00e9thode (ou "throws", ou ";")
 
 BJ001
-"(" attendu; "if"/"while"/"switch" doivent être suivis de "(" -
-avez-vous oublié "(" / ")" autour du bloc conditionnel ?
+"(" attendu; "if"/"while"/"switch" doivent \u00eatre suivis de "(" -
+avez-vous oubli\u00e9 "(" / ")" autour du bloc conditionnel ?
 
 BJ002
 "(" attendu; Vous devez avoir la paire "(" / ")" autour de la condition
